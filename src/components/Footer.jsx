@@ -10,7 +10,7 @@ const Footer = () => {
             onClick={() => window.location.href = '/'}
             className="btn bg-blue text-white hover:bg-transparent hover:text-blue border-blue transition-all duration-300"
           >
-            Back to Home
+            Вернуться на Главную
           </button>
         </div>
 
