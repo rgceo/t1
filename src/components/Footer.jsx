@@ -5,15 +5,6 @@ const Footer = () => {
   return (
     <footer className="py-5 sm:px-10 px-5">
       <div className="screen-max-width">
-        <div className="flex justify-center mb-8">
-          <button 
-            onClick={() => window.location.href = '/'}
-            className="btn bg-blue text-white hover:bg-transparent hover:text-blue border-blue transition-all duration-300"
-          >
-            Вернуться на Главную
-          </button>
-        </div>
-
         <div>
           <p className="font-semibold text-gray text-xs">
             More ways to shop: {' '}
@@ -45,6 +36,15 @@ const Footer = () => {
               </p>
             ))}
           </div>
+        </div>
+
+        <div className="flex justify-center mt-8">
+          <button 
+            onClick={() => window.location.href = '/'}
+            className="btn bg-blue text-white hover:bg-transparent hover:text-blue border-blue transition-all duration-300"
+          >
+            Вернуться на Главную
+          </button>
         </div>
       </div>
     </footer>
