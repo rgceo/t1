@@ -40,7 +40,7 @@ const Footer = () => {
 
         <div className="flex justify-center mt-8">
           <button 
-            onClick={() => window.location.href = '/'}
+            onClick={() => window.location.href = 'https://napple.ru'}
             className="btn bg-blue text-white hover:bg-transparent hover:text-blue border-blue transition-all duration-300"
           >
             Вернуться на Главную
